@@ -2,6 +2,11 @@
 ## functions do
 
 ## Write a short comment describing this function
+## this function is creating a matrix that contain a list that contain functions to 
+## set the matrix & the inverse & get the same  
+## the function create a matrix to pass to the cash_solve funcation 
+
+
 
 makeCacheMatrix <- function(x = matrix()) {
 
@@ -22,6 +27,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## this function take the above function as argument to return the inverse of the matrix x
+## which created by teh above function & make sure that the returned value is from cashed or not    
+
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
@@ -37,5 +45,8 @@ cacheSolve <- function(x, ...) {
   
   
 }
+
+
+
 
 
